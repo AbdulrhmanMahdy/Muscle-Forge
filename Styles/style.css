@@ -1,0 +1,51 @@
+.carousel-item img {
+  height: 500px;
+  /* width: 800px; Set fixed width */
+  object-fit: cover; /* Ensure the image covers the container */
+}
+
+body {
+  background-color: rgb(81, 81, 81);
+}
+
+.background-video-container {
+  position: relative;
+  border-radius: 22px;
+}
+
+.background-video-container video {
+  object-fit: cover;
+  border-radius: 22px;
+}
+
+.zoom-vid {
+  transition: transform 0.3s ease-in-out;
+}
+
+.zoom-vid:hover {
+  border: 2px solid grey;
+}
+
+.background-img-container {
+  border: 5px solid white;
+
+  border-radius: 22px;
+}
+.background-img-container img {
+  border-radius: 22px;
+}
+
+#form1 {
+  background-color: rgb(81, 81, 81);
+  border-radius: 22px;
+  border: 0px solid black;
+}
+
+.zoom-image {
+  transition: transform 0.3s ease-in-out;
+}
+
+.zoom-image:hover {
+  transform: scale(1.5); /* Zoom in by 20% */
+  object-position: center; /* Ensures the image zooms from the center */
+}
